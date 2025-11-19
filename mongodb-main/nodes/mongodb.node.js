@@ -36,7 +36,7 @@ function buildConnectionString(credentials) {
 }
 
 const MongoDBNode = {
-  type: "mongodb",
+  identifier: "mongodb",
   displayName: "MongoDB",
   name: "mongodb",
   group: ["database"],
